@@ -12,7 +12,6 @@
  </settings>
  <sequence>
   <item id="start" name="Associação simples" />
-  <item name="cruzadas teste" />
   <item name="quebra teste" />
  </sequence>
  <activities>
@@ -59,43 +58,6 @@
     <cell image="saudade.png" />
    </cells>
    <scramble times="31" primary="true" secondary="true" />
-   <layout position="AB" />
-  </activity>
-  <activity class="@textGrid.CrossWord" name="cruzadas teste" code="">
-   <description />
-   <messages />
-   <settings margin="8" report="true" reportActions="false">
-    <container bgColor="0xC0C0C0">
-     <counters time="true" actions="true" score="true" />
-    </container>
-    <window bgColor="0xC0C0C0" border="true" />
-   </settings>
-   <textGrid rows="10" columns="10" cellWidth="30.0" cellHeight="30.0" border="true">
-    <style>
-     <color background="0xFFFFFF" />
-    </style>
-    <text>
-     <row>**********</row>
-     <row>**********</row>
-     <row>*A********</row>
-     <row>*Z********</row>
-     <row>*U*VERDE**</row>
-     <row>*L********</row>
-     <row>**********</row>
-     <row>**********</row>
-     <row>**********</row>
-     <row>**********</row>
-    </text>
-   </textGrid>
-   <cells rows="1" cols="3" cellWidth="403.0" cellHeight="150.0" border="true" id="acrossClues">
-    <style />
-    <shaper class="@Rectangular" cols="3" rows="1" />
-    <ids>4 4 4 5 5 6 7 8 9 1 3 3 2 2 0 0 1 2</ids>
-   </cells>
-   <cells rows="1" cols="3" cellWidth="403.0" cellHeight="150.0" border="true" id="downClues">
-    <style />
-    <ids>7 9 8 7 7 6 6 4 4 1 1 5 5 3 3 2 0 0 1 2</ids>
-   </cells>
    <layout position="AB" />
   </activity>
   <activity class="@puzzles.DoublePuzzle" name="quebra teste" code="">
